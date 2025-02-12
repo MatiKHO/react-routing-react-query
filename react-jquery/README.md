@@ -13,7 +13,7 @@ A React application that allows users to explore information about different cou
 ## Technologies Used
 
 - React + Vite
-- React Router DOM
+- React Router
 - React Query (TanStack Query)
 - REST Countries API
 

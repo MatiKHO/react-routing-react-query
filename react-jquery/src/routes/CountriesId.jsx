@@ -1,22 +1,21 @@
-import CountriesComponent from "../components/Countries/Index";
 import { Box } from "@mui/material";
+import CountriesIdComponent from "../components/CountriesId/Index";
 
-const Countries = () => {
+const CountryId = () => {
   return (
     <Box
       sx={{
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        justifyContent: "center",
+        flexGrow: 1,
         gap: 2,
         p: 2,
-        height: "90vh",
       }}
     >
-      <CountriesComponent />
+      <CountriesIdComponent />
     </Box>
   );
 };
 
-export default Countries;
+export default CountryId;
